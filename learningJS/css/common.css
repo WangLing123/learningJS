@@ -59,26 +59,3 @@ a:hover {
 a:active {
     color: red;
 }
-
-.showMain {
-    width: auto;
-    height: auto;
-    min-height: 520px;
-    margin-top: 1em;
-    /*  position: relative;
-    left: 18%;
-    top: 5.5em; */
-    /* background-color: #cccccc; */
-}
-
-.showMain>p {
-    margin-left: 1em;
-}
-
-.showMain>p>span {
-    display: inline-block;
-    height: 25px;
-    padding-left: 3px;
-    line-height: 25px;
-    vertical-align: 5px;
-}
