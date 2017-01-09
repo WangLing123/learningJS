@@ -1,0 +1,268 @@
+    /*整体样式设置*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-family: '宋体' 'Microsoft Yahei' Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        cursor: pointer;
+    }
+    
+    li {
+        list-style: none;
+    }
+    /*------------*/
+    /*-----外部容器样式设置-----*/
+    
+    .container {
+        width: 100%;
+        height: auto;
+        background-color: #e6e6e6;
+    }
+    /*----头部分------*/
+    
+    header {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 160px;
+        background-image: url(../images/banner0.png);
+    }
+    
+    header .menuBar {
+        width: 1050px;
+        height: 40px;
+        position: relative;
+        top: 115px;
+        margin: 0 auto;
+        // padding: auto 10px;
+        background-color: #ffffff;
+    }
+    
+    .menuBar>ul {
+        width: 1050px;
+        height: auto;
+        overflow: hidden;
+        // margin: 0 10px;
+    }
+    
+    .menuBar>ul>li {
+        float: left;
+    }
+    
+    .menuBar>ul>li>a {
+        display: inline-block;
+        width: 130px;
+        height: 30px;
+        margin: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 30px;
+        border-bottom: 5px solid #e1e4e1;
+        border-left: 1px solid #e1e4e1;
+    }
+    
+    .menuBar>ul>li>a:hover {
+        border-bottom-color: #1b7819;
+    }
+    /*------中间主体部分------*/
+    
+    main {
+        width: 1050px;
+        min-height: 750px;
+        height: auto;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    
+    main .login_rotate {
+        width: 1050px;
+        height: 220px;
+        margin: 5px 0;
+    }
+    /*-----登陆板块-------*/
+    
+    .login_rotate .login {
+        width: 330px;
+        height: 212px;
+        float: left;
+        margin: 4px;
+        padding: 3px;
+        border: 1px solid #e6e6e6;
+    }
+    
+    .login>a {
+        display: inline-block;
+        width: 250px;
+        height: 50px;
+        margin: 30px 20px 0 30px;
+        padding: 0px 10px;
+        vertical-align: bottom;
+        line-height: 50px;
+        border: 1px solid #1b7819;
+        border-radius: 6px;
+    }
+    
+    .login>a:hover {
+        border: 1px solid #1a7018;
+        background-color: #1a7018;
+    }
+    
+    .login img {
+        vertical-align: middle;
+    }
+    
+    .login span {
+        display: inline-block;
+        width: 210px;
+        height: 20px;
+        padding-left: 25px;
+        margin-left: 15px;
+        vertical-align: -4px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /*----模块标题--------*/
+    
+    .title {
+        width: 310px;
+        height: 30px;
+        padding: 0 10px;
+        background-color: #eae8e6;
+        font: 18px 'Microsoft Yahei';
+    }
+    /*登录角色小图标的变换*/
+    
+    .t_login,
+    .s_login {
+        background-repeat: no-repeat;
+        background-position: 8% center;
+    }
+    
+    .t_login {
+        background-image: url(../images/teacher0.png);
+    }
+    
+    .t_login:hover {
+        background-image: url(../images/teacher1.png);
+        color: #8f8282;
+    }
+    
+    .s_login {
+        background-image: url(../images/student0.png);
+    }
+    
+    .s_login:hover {
+        background-image: url(../images/student1.png);
+        color: #8f8282;
+    }
+    /*---------------------*/
+    /*------轮播部分-------*/
+    
+    .rotate {
+        width: 687px;
+        height: 212px;
+        float: right;
+        margin: 4px;
+        padding: 3px;
+        border: 1px solid #e6e6e6;
+    }
+    /*--------------------*/
+    /*--消息公示部分--*/
+    
+    .board {
+        width: 1050px;
+        min-height: 540px;
+        height: auto;
+    }
+    
+    .border,
+    .news {
+        width: 330px;
+        height: 250px;
+        margin: 5px;
+        margin-right: 6px;
+        padding: 3px;
+        float: left;
+        border: 1px solid #e6e6e6;
+    }
+    
+    .news>li {
+        width: 310px;
+        padding: 0 10px;
+    }
+    
+    .news>li>a {
+        color: #000000;
+    }
+    
+    .news>li>a:hover {
+        cursor: pointer;
+        color: #fa294d;
+    }
+    
+    .time {
+        float: right;
+        margin-right: 10px;
+    }
+    /*----超出隐藏----*/
+    
+/*     .text {
+        width: 10em;
+        overflow: hidden;                自动隐藏文字
+        /* text-overflow: ellipsis;        文字隐藏后添加省略号
+        /* white-space: nowrap; */
+    } */
+    /*---------------*/
+    /*----页脚部分---*/
+    
+    footer {
+        width: 1050px;
+        height: 60px;
+        margin: 0 auto;
+        padding-top: 20px;
+        background-color: #ffffff;
+    }
+    /*友情链接*/
+    
+    .supporters {
+        width: 1040px;
+        height: 30px;
+        margin: 0 auto;
+        border: 1px solid #1a7018;
+        line-height: 30px;
+    }
+    
+    .supporters>span {
+        padding-left: 10px;
+        color: #826f6f;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    
+    .supporters>li {
+        display: inline-block;
+    }
+    
+    .supporters>li>a {
+        color: #826f6f;
+        line-height: 30px;
+    }
+    /*版权声明*/
+    
+    footer>p {
+        text-align: center;
+        font-size: 12px;
+        color: #826f6f;
+    }
+    /*-----------*/

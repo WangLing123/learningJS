@@ -1,0 +1,117 @@
+.title{
+	font-size: 20px;
+	color: #57A8D3;
+	text-align: center;
+	margin-top: 1em;
+}
+
+/* S 操作选项部分 */
+.operation{
+	width: 100%;
+	height: 2em;
+	line-height: 2em;
+	margin: 1em 0;
+}
+.operation>li{
+	float: left;
+	padding-left: 16px;
+    margin: 0 1em;
+    background-repeat: no-repeat;
+    background-position: 4px 10px; 
+    border-radius: 5px;   
+}
+
+.operation>li>a{
+    display: inline-block;
+    width: 5em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.operation .uploadFiles{
+	position: relative; 
+	background-color: #7EB620;
+	background-image: url('images/upload_files.png');
+}
+
+.operation .uploadImages{
+	position: relative; 
+	background-color: #5AA7D3;
+	background-image: url('images/upload_images.png');
+}
+
+.operation .lotsManage{
+	background-color: #96979B;
+	background-image: url('images/lots_manage.png');
+}
+
+.operation input{
+position: absolute; 
+width: 119px; 
+height: 40px; 
+line-height: 40px; 
+font-size: 23px; 
+opacity: 0; 
+filter: alpha(opacity=0); 
+-moz-opacity: 0; 
+left: -5px; 
+top: -2px; 
+cursor: pointer; 
+z-index: 2; 
+}
+
+/* E 操作选项部分 */
+
+/* S 上传图片部分 */
+#pictures{
+	width: auto;
+	height:100px;
+	padding: 0.5em;
+	margin: 1em;
+	background-color: #F2F2F2;
+}
+/* .pictures>li{
+   float: left;
+   margin: 0 0 0 1em;
+} */
+/* E 上传图片部分 */
+
+/* S 上传附件部分 */
+#files{
+  margin:1em;
+
+}
+
+#files li{
+	height: 1.5em;
+	line-height: 1.5em;
+	padding-left: 20px;
+	background-position: 5px;
+	background-image: url('images/files.png');
+	background-repeat: no-repeat;
+}
+#files>li>span{
+	float: right;
+	margin-right: 1em;
+}
+/* E 上传附件部分 */
+
+/* S 按钮部分 */
+.goBack{
+	width: 8em;
+	height: 2.5em;
+	border-radius: 5px;
+	background-color: #7EB524;
+	margin-right: 1em;
+	color: #fff;
+}
+.submit{
+	width: 8em;
+	height: 2.5em;
+	border-radius: 5px;
+	background-color: #5AA7D3;
+	color: #fff;   
+}
+/* E 按钮部分 */
